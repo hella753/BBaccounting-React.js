@@ -1,0 +1,28 @@
+.containerServ {
+  border-radius: 20px;
+  /* background-color: rgb(173, 173, 173); */
+  width: 100%;
+  height: fit-content;
+  text-align: justify;
+  margin-right: 20px;
+
+  margin-left: 10px;
+  font-size: larger;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.containerServ p {
+  padding: 14px;
+  padding-bottom: 0;
+  margin-top: 0;
+}
+@media (max-width: 768px) {
+  .containerServ {
+    padding: 20px;
+    width: fit-content;
+    margin-right: 8px;
+    margin-left: 15px;
+  }
+}

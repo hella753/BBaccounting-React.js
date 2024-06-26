@@ -1,0 +1,35 @@
+.titArticle2 {
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgba(14, 68, 16, 255);
+  font-family: "Oswald", sans-serif;
+  text-align: start;
+  margin: 0;
+}
+
+.bigContainer {
+  display: flex;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+}
+
+.formatP {
+  font-family: "Oswald", sans-Serif;
+  color: #45523e;
+  text-align: start;
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  .titArticle2 {
+    font-size: 24px;
+  }
+
+  .formatP {
+    font-size: 20px;
+  }
+  .cont {
+    width: 80%;
+  }
+}
