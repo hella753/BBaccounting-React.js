@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+
+.slogani {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.gilaki {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #555;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  padding: 12px 24px;
+  border: 5px solid #555;
+  cursor: pointer;
+  font-family: "Oswald", sans-serif;
+  border-radius: 5px;
+}
+
+.gilaki:hover {
+  background-color: rgba(14, 68, 16, 0.8);
+  color: white;
+  border-color: rgba(14, 68, 16, 0.8);
+}
+
+@media (max-width: 768px) {
+  .slogani {
+    margin-top: 120px;
+  }
+}
