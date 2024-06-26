@@ -1,0 +1,67 @@
+.arr {
+  background-color: #45523e;
+  height: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.w3-display-container {
+  position: relative;
+}
+
+.w3-left,
+.w3-right,
+.w3-badge {
+  cursor: pointer;
+}
+
+.w3-left,
+.w3-right {
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  user-select: none;
+}
+
+.w3-left {
+  left: 0;
+}
+
+.w3-right {
+  right: 0;
+}
+
+.w3-badge {
+  height: 15px;
+  width: 15px;
+  margin: 2px;
+  display: inline-block;
+}
+
+.mySlides {
+  width: 100%;
+}
+
+.imageStyle {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  padding: 0;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+@media (min-width: 1400px) {
+  .arr {
+    height: 20px;
+  }
+}

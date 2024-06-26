@@ -1,0 +1,30 @@
+.contDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1%;
+}
+
+@media (min-width: 1400px) {
+  .contDiv {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.titArticle {
+  font-size: 28px;
+  font-weight: bolder;
+  color: rgba(14, 68, 16, 255);
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+
+  margin: 0 0 10px;
+}
+
+@media (min-width: 1400px) {
+  .titArticle {
+    font-size: 35px;
+  }
+}

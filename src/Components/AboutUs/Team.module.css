@@ -1,0 +1,28 @@
+.formatAnotherP {
+  padding-top: 0;
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+}
+
+.titArticle {
+  font-size: 35px;
+  font-weight: bolder;
+  color: rgba(14, 68, 16, 255);
+  font-family: "Oswald", sans-serif;
+  text-align: start;
+  padding-top: 40px;
+}
+@media (min-width: 1400px) {
+  .formatAnotherP {
+    font-size: 24px;
+    text-align: start;
+  }
+}
+
+@media (min-width: 1400px) {
+  .titArticle {
+    font-size: 35px;
+    text-align: start;
+  }
+}
