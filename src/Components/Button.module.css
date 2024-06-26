@@ -1,0 +1,38 @@
+.gilaki {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #555;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  padding: 12px 24px;
+  border: 5px solid #555;
+  cursor: pointer;
+  font-family: "Oswald", sans-serif;
+  border-radius: 5px;
+}
+
+.gilaki:hover {
+  background-color: rgba(14, 68, 16, 0.8);
+  color: white;
+  border-color: rgba(14, 68, 16, 0.8);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .gilaki {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .gilaki {
+    font-size: 12px;
+    padding: 8px 16px;
+    top: 90%; /* Adjust the position of the button */
+  }
+}
