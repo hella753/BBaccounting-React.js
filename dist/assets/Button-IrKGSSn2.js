@@ -1,0 +1,1 @@
+import{j as s,N as a}from"./index-DsaTxADL.js";const o="_gilaki_1rybw_1",l={gilaki:o};function r({to:i,loading:t,children:n}){return s.jsx(a,{to:i,children:s.jsx("button",{style:{display:t?"none":"block"},className:l.gilaki,children:n})})}export{r as B};

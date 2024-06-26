@@ -1,0 +1,1 @@
+import{j as c}from"./index-DsaTxADL.js";const s="_container_14tr3_1",a="_contImg_14tr3_25",t={container:s,contImg:a};function m({bgcolor:n="#bebab3",color:o="white",isImg:r=!1,children:e}){return c.jsx("div",{className:r===!0?t.contImg:t.container,style:{backgroundColor:n,color:o},children:e})}export{m as C};
